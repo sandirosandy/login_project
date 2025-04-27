@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Baloo 2', cursive;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-register {
+    margin-top: 10px;
+}
+
+.login-logo h2 {
+    font-family: 'Baloo 2', cursive; /* 👈 Tambahkan ini */
+    font-weight: 600;
+    color: #764ba2;
+    text-align: center;
+    font-size: 45px;
+}
+.login-logo p {
+    text-align: center;
+    font-size: 25px;
+}
